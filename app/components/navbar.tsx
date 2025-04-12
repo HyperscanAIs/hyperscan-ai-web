@@ -76,8 +76,11 @@ const Navbar = () => {
               >
                 Blog
               </Link>
-              <div className="ml-4">
-                <WalletMultiButton className="glow-effect bg-primary hover:bg-primary/90 text-white rounded-md" />
+              <div className="ml-4 glow-effect">
+                <WalletMultiButton
+                  className="text-white rounded-md"
+                  style={{ backgroundColor: "var(--color-primary)" }}
+                />
               </div>
             </div>
           </div>
