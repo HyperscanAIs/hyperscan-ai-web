@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import Link from "next/link";
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -76,9 +76,9 @@ const Navbar = () => {
               >
                 Blog
               </Link>
-              <Button className="ml-4 glow-effect bg-primary hover:bg-primary/90 text-white">
-                Connect Wallet
-              </Button>
+              <div className="ml-4">
+                <WalletMultiButton className="glow-effect bg-primary hover:bg-primary/90 text-white rounded-md" />
+              </div>
             </div>
           </div>
 
@@ -141,12 +141,9 @@ const Navbar = () => {
           >
             Blog
           </Link>
-          <Button
-            className="w-full mt-4 glow-effect bg-primary hover:bg-primary/90 text-white"
-            onClick={() => setIsOpen(false)}
-          >
-            Connect Wallet
-          </Button>
+          <div className="w-full mt-4" onClick={() => setIsOpen(false)}>
+            <WalletMultiButton className="w-full glow-effect bg-primary hover:bg-primary/90 text-white rounded-md" />
+          </div>
         </div>
       </div>
     </nav>
