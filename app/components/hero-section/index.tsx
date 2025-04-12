@@ -1,8 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import Orbit from "./orbit";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -31,20 +31,47 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button
-                size="lg"
-                className="glow-effect bg-primary hover:bg-primary/90 text-white cursor-pointer"
+              <a href="#" className="transition-transform hover:scale-105">
+                <Button
+                  size="lg"
+                  className="glow-effect w-full h-14 bg-black hover:bg-black/90 text-white cursor-pointer px-6 flex items-center justify-center gap-2 rounded-xl"
+                >
+                  <Image
+                    src="/apple.png"
+                    alt="App Store"
+                    width={24}
+                    height={24}
+                  />
+                  <div className="flex flex-col items-start">
+                    <span className="text-xs font-normal">Download on the</span>
+                    <span className="text-md font-medium leading-none mt-1">
+                      App Store
+                    </span>
+                  </div>
+                </Button>
+              </a>
+              <a
+                href="#"
+                className="transition-transform hover:scale-105 glow-eff"
               >
-                Get Started
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary/10 cursor-pointer"
-              >
-                Learn More
-              </Button>
+                <Button
+                  size="lg"
+                  className="glow-effect w-full h-14 bg-black hover:bg-black/90 text-white cursor-pointer px-6 flex items-center justify-center gap-2 rounded-xl"
+                >
+                  <Image
+                    src="/play-store.png"
+                    alt="Play Store"
+                    width={24}
+                    height={24}
+                  />
+                  <div className="flex flex-col items-start">
+                    <span className="text-xs font-normal">Get it on</span>
+                    <span className="text-md font-medium leading-none mt-1">
+                      Google Play
+                    </span>
+                  </div>
+                </Button>
+              </a>
             </div>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 pt-4">
