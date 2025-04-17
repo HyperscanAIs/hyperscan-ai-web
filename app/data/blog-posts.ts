@@ -49,10 +49,10 @@ export const blogPosts: BlogPost[] = [
       
       <p>The future of AI in blockchain technology is bright, and we are excited to be a part of it. Join us on this journey as we explore the endless possibilities of these transformative technologies.</p>
     `,
-    image: "/placeholder.svg?height=600&width=1200",
+    image: "/blog/1-1.png",
     date: "Apr 15, 2025",
     author: "Alex Johnson",
-    authorImage: "/placeholder.svg?height=100&width=100",
+    authorImage: "/blog/1-2.png",
     category: "Technology",
     readTime: "8 min read",
     tags: ["AI", "Blockchain", "Web3", "Innovation"],
@@ -133,10 +133,10 @@ export const blogPosts: BlogPost[] = [
       
       <p>By understanding and implementing these security protocols, you can build Web3 applications that not only provide innovative functionality but also ensure the security and trust that users expect in the decentralized web.</p>
     `,
-    image: "/placeholder.svg?height=600&width=1200",
+    image: "/blog/2-1.png",
     date: "Apr 10, 2025",
     author: "Sarah Chen",
-    authorImage: "/placeholder.svg?height=100&width=100",
+    authorImage: "/blog/2-2.png",
     category: "Security",
     readTime: "10 min read",
     tags: ["Security", "Web3", "Protocols", "Blockchain"],
@@ -218,7 +218,7 @@ export const blogPosts: BlogPost[] = [
       
       <p>The decentralized finance revolution is just beginning, and its impact on the global financial system will be profound. By understanding and embracing this new paradigm, we can help shape a more open, transparent, and accessible financial future for everyone.</p>
     `,
-    image: "/placeholder.svg?height=600&width=1200",
+    image: "/blog/3-1.webp",
     date: "Apr 5, 2025",
     author: "Michael Rodriguez",
     authorImage: "/placeholder.svg?height=100&width=100",
@@ -295,10 +295,10 @@ export const blogPosts: BlogPost[] = [
 
       <p>The journey towards fully AI-powered logistics is well underway, and businesses that proactively embrace this transformative power, while carefully navigating the associated challenges, will be exceptionally well-positioned to thrive in the increasingly complex and interconnected future of global trade and commerce.</p>
     `,
-    image: "/placeholder.svg?height=600&width=1200",
+    image: "/blog/4-1.png",
     date: "Mar 28, 2025",
     author: "David Lee",
-    authorImage: "/placeholder.svg?height=100&width=100",
+    authorImage: "/blog/4-2.png",
     category: "Logistic",
     readTime: "18 min read",
     tags: [

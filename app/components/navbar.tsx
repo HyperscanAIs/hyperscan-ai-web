@@ -47,23 +47,29 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
               <Link
+                href="#home"
+                className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              >
+                About
+              </Link>
+              <Link
                 href="#features"
                 className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 Features
               </Link>
-              <Link
-                href="#testimonials"
-                className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
-              >
-                Testimonials
-              </Link>
-              <Link
-                href="#about"
-                className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
-              >
-                About
-              </Link>
+              {/* <Link */}
+              {/*   href="#testimonials" */}
+              {/*   className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors" */}
+              {/* > */}
+              {/*   Testimonials */}
+              {/* </Link> */}
+              {/* <Link */}
+              {/*   href="#about" */}
+              {/*   className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors" */}
+              {/* > */}
+              {/*   About */}
+              {/* </Link> */}
               <Link
                 href="#pricing"
                 className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"

@@ -1,12 +1,15 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import Orbit from "./orbit";
 import Image from "next/image";
+import Orbit from "./orbit";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-16">
+    <section
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-16"
+      id="home"
+    >
       {/* Background elements */}
       <div className="absolute inset-0 bg-grid opacity-20"></div>
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-radial from-primary/20 via-transparent to-transparent opacity-40"></div>
@@ -31,7 +34,11 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a href="#" className="transition-transform hover:scale-105">
+              <a
+                href="https://drive.google.com/file/d/1e3aGtmlc8_KR3kkfOJzqZv3c7AqL789d/view?usp=drive_link"
+                className="transition-transform hover:scale-105"
+                target="_blank"
+              >
                 <Button
                   size="lg"
                   className="glow-effect w-full h-14 bg-black hover:bg-black/90 text-white cursor-pointer px-6 flex items-center justify-center gap-2 rounded-xl"
@@ -51,8 +58,9 @@ const HeroSection = () => {
                 </Button>
               </a>
               <a
-                href="#"
+                href="https://drive.google.com/file/d/122ejgVRHlifFMcsSuxGAKDqSenc5fTEo/view"
                 className="transition-transform hover:scale-105 glow-eff"
+                target="_blank"
               >
                 <Button
                   size="lg"

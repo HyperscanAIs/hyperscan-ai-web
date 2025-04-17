@@ -35,7 +35,7 @@ const Footer = () => {
                 <Facebook className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                href="https://x.com/HyperscanAI"
                 className="text-foreground/70 hover:text-primary transition-colors"
               >
                 <Twitter className="w-5 h-5" />
@@ -53,7 +53,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                href="https://github.com/ethanscott12297/"
                 className="text-foreground/70 hover:text-primary transition-colors"
               >
                 <Github className="w-5 h-5" />
@@ -120,7 +120,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="https://doc.hyperscan.com"
                   className="text-foreground/70 hover:text-primary transition-colors"
                 >
                   API Reference
@@ -159,16 +159,18 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 text-primary mr-3 mt-0.5" />
                 <span className="text-foreground/70">
-                  123 Blockchain Avenue, San Francisco, CA 94107
+                  259-261 Schenectady Ave, Brooklyn, NY 11213, USA
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 text-primary mr-3" />
-                <span className="text-foreground/70">+1 (555) 123-4567</span>
+                <span className="text-foreground/70">+1 (646) 290-7028 </span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-primary mr-3" />
-                <span className="text-foreground/70">info@hyperscan.com</span>
+                <span className="text-foreground/70">
+                  contact@hyperscan.com
+                </span>
               </li>
             </ul>
           </div>
