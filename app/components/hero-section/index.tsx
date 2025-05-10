@@ -24,13 +24,13 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
               <span className="text-gradient">AI-Powered</span> Web3
               <br />
-              <span className="text-gradient">Revolution</span>
+              <span className="text-gradient">Logistic</span>
             </h1>
 
             <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto lg:mx-0">
               Harness the power of artificial intelligence and blockchain
-              technology to create decentralized applications that are smarter,
-              faster, and more secure than ever before.
+              technology to revolutionize logistic transportation, enabling
+              smarter, faster, and more secure global supply chain operations.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
