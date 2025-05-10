@@ -35,9 +35,8 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="https://drive.google.com/file/d/1e3aGtmlc8_KR3kkfOJzqZv3c7AqL789d/view?usp=drive_link"
+                href="https://firebasestorage.googleapis.com/v0/b/hypescan-722af.firebasestorage.app/o/Hyperscan.ipa?alt=media&token=9313a63c-0686-4553-b854-ca50f39fc966"
                 className="transition-transform hover:scale-105"
-                target="_blank"
               >
                 <Button
                   size="lg"
@@ -58,9 +57,8 @@ const HeroSection = () => {
                 </Button>
               </a>
               <a
-                href="https://drive.google.com/file/d/122ejgVRHlifFMcsSuxGAKDqSenc5fTEo/view"
+                href="https://firebasestorage.googleapis.com/v0/b/hypescan-722af.firebasestorage.app/o/Hyperscan.apk?alt=media&token=935f6e84-4f76-4169-b58e-5c83a15e048b"
                 className="transition-transform hover:scale-105 glow-eff"
-                target="_blank"
               >
                 <Button
                   size="lg"
