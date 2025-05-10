@@ -15,8 +15,8 @@ const Footer = () => {
             </h3>
             <p className="text-foreground/70 mb-6">
               Bridging the gap between artificial intelligence and blockchain
-              technology to create a more intelligent, secure, and decentralized
-              future.
+              technology to revolutionize logistics, enabling smarter, more
+              secure, and efficient global supply chain solutions.
             </p>
             <div className="flex space-x-4">
               <Link
