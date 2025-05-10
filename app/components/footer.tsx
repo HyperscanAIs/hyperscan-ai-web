@@ -1,14 +1,5 @@
 import Link from "next/link";
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Github,
-  Mail,
-  Phone,
-  MapPin,
-} from "lucide-react";
+import { Github, Mail, Phone, MapPin, X } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -29,28 +20,10 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="#"
-                className="text-foreground/70 hover:text-primary transition-colors"
-              >
-                <Facebook className="w-5 h-5" />
-              </Link>
-              <Link
                 href="https://x.com/HyperscanAI"
                 className="text-foreground/70 hover:text-primary transition-colors"
               >
-                <Twitter className="w-5 h-5" />
-              </Link>
-              <Link
-                href="#"
-                className="text-foreground/70 hover:text-primary transition-colors"
-              >
-                <Instagram className="w-5 h-5" />
-              </Link>
-              <Link
-                href="#"
-                className="text-foreground/70 hover:text-primary transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
+                <X className="w-5 h-5" />
               </Link>
               <Link
                 href="https://github.com/ethanscott12297/"
