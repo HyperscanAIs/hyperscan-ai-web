@@ -1,48 +1,48 @@
 "use client";
 import { useInView } from "react-intersection-observer";
-import { Brain, Shield, Zap, BarChart3, Lock, Globe } from "lucide-react";
+import { Package, Scale, FlaskConical, MapPin, Clock } from "lucide-react";
 
 const features = [
   {
-    icon: <Brain className="w-10 h-10 text-primary" />,
-    title: "AI-Powered Analytics",
+    icon: <Package className="w-10 h-10 text-primary" />,
+    title: "Container Tracking",
     description:
-      "Advanced machine learning algorithms analyze blockchain data to provide actionable insights and predictions.",
+      "Track your containers in real-time to ensure transparency and efficiency in your supply chain.",
     delay: 100,
   },
   {
-    icon: <Shield className="w-10 h-10 text-primary" />,
-    title: "Enhanced Security",
+    icon: <Scale className="w-10 h-10 text-primary" />,
+    title: "Cargo Weight Estimation",
     description:
-      "Military-grade encryption and decentralized architecture ensure your data remains secure and private.",
+      "Accurately estimate cargo weight to optimize load planning and reduce transportation costs.",
     delay: 200,
   },
   {
-    icon: <Zap className="w-10 h-10 text-primary" />,
-    title: "Lightning Fast",
+    icon: <FlaskConical className="w-10 h-10 text-primary" />,
+    title: "Chemical Screening",
     description:
-      "Optimized for speed with transaction processing times that are 10x faster than traditional systems.",
+      "Ensure compliance and safety with advanced chemical screening for transported goods.",
     delay: 300,
   },
   {
-    icon: <BarChart3 className="w-10 h-10 text-primary" />,
-    title: "Real-time Monitoring",
+    icon: <MapPin className="w-10 h-10 text-primary" />,
+    title: "Route Optimization",
     description:
-      "Monitor your assets and transactions in real-time with customizable dashboards and alerts.",
+      "Optimize delivery routes to save time, reduce fuel consumption, and improve efficiency.",
     delay: 400,
   },
   {
-    icon: <Lock className="w-10 h-10 text-primary" />,
-    title: "Self-Custody",
+    icon: <Clock className="w-10 h-10 text-primary" />,
+    title: "Delivery Time Estimation",
     description:
-      "Maintain complete control of your digital assets with our non-custodial wallet integration.",
+      "Provide accurate delivery time estimates to enhance customer satisfaction and planning.",
     delay: 500,
   },
   {
-    icon: <Globe className="w-10 h-10 text-primary" />,
-    title: "Global Accessibility",
+    icon: <Scale className="w-10 h-10 text-primary" />,
+    title: "Smart Contracts for Automated Payments",
     description:
-      "Access your assets and data from anywhere in the world, on any device, at any time.",
+      "Automate payments with blockchain smart contracts, ensuring trust and reducing delays.",
     delay: 600,
   },
 ];
@@ -65,9 +65,9 @@ const FeaturesSection = () => {
             <span className="text-gradient">What We Do</span>
           </h2>
           <p className="text-lg text-foreground/80">
-            Our platform combines the power of artificial intelligence with
-            blockchain technology to create a seamless, secure, and intelligent
-            Web3 experience.
+            Our platform offers cutting-edge solutions tailored for the
+            logistics industry, ensuring efficiency, transparency, and
+            reliability in global supply chain operations.
           </p>
         </div>
 

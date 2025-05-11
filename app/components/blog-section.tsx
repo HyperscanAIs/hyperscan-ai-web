@@ -29,8 +29,8 @@ const BlogSection = () => {
               <span className="text-gradient">Latest Articles</span>
             </h2>
             <p className="text-lg text-foreground/80 max-w-2xl">
-              Stay up-to-date with the latest trends and insights in AI,
-              blockchain, and Web3 technology.
+              Explore the latest insights and trends in logistics, supply chain
+              optimization, and transportation technology.
             </p>
           </div>
 

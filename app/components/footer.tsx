@@ -47,15 +47,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="#testimonials"
-                  className="text-foreground/70 hover:text-primary transition-colors"
-                >
-                  Testimonials
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#about"
+                  href="#home"
                   className="text-foreground/70 hover:text-primary transition-colors"
                 >
                   About Us
@@ -85,7 +77,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="#"
+                  href="https://doc.hyperscanai.cloud/"
                   className="text-foreground/70 hover:text-primary transition-colors"
                 >
                   Documentation
@@ -93,34 +85,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://doc.hyperscan.com"
+                  href="https://doc.hyperscanai.cloud/api-sdk/overview"
                   className="text-foreground/70 hover:text-primary transition-colors"
                 >
                   API Reference
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-foreground/70 hover:text-primary transition-colors"
-                >
-                  Tutorials
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-foreground/70 hover:text-primary transition-colors"
-                >
-                  Case Studies
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="text-foreground/70 hover:text-primary transition-colors"
-                >
-                  FAQs
                 </Link>
               </li>
             </ul>

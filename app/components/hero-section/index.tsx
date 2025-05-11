@@ -28,9 +28,9 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-foreground/80 max-w-2xl mx-auto lg:mx-0">
-              Harness the power of artificial intelligence and blockchain
-              technology to revolutionize logistic transportation, enabling
-              smarter, faster, and more secure global supply chain operations.
+              Transform the logistics industry with innovative solutions
+              designed to optimize transportation, enhance efficiency, and
+              ensure seamless global supply chain operations.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -84,16 +84,20 @@ const HeroSection = () => {
               <div className="flex items-center">
                 <div className="w-2 h-2 rounded-full bg-primary mr-2"></div>
                 <span className="text-sm text-foreground/70">
-                  Decentralized
+                  Real-time Tracking
                 </span>
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 rounded-full bg-secondary mr-2"></div>
-                <span className="text-sm text-foreground/70">Secure</span>
+                <span className="text-sm text-foreground/70">
+                  Optimized Routes
+                </span>
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 rounded-full bg-accent mr-2"></div>
-                <span className="text-sm text-foreground/70">Intelligent</span>
+                <span className="text-sm text-foreground/70">
+                  Seamless Operations
+                </span>
               </div>
             </div>
           </div>

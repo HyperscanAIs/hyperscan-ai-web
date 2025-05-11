@@ -8,20 +8,20 @@ import { Check, X } from "lucide-react";
 const pricingPlans = [
   {
     name: "Starter",
-    description: "Perfect for individuals and small projects",
+    description: "Perfect for small logistics operations",
     price: {
       monthly: 49,
       yearly: 39,
     },
     features: [
-      "Basic AI analytics",
-      "Up to 100 transactions/day",
-      "Standard security features",
+      "Basic container tracking",
+      "Up to 100 shipments/month",
+      "Standard route optimization",
       "Email support",
       "1 user",
     ],
     notIncluded: [
-      "Advanced predictive models",
+      "Advanced analytics",
       "Custom integrations",
       "Dedicated account manager",
     ],
@@ -30,15 +30,15 @@ const pricingPlans = [
   },
   {
     name: "Professional",
-    description: "Ideal for growing businesses and teams",
+    description: "Ideal for growing logistics businesses",
     price: {
       monthly: 99,
       yearly: 79,
     },
     features: [
-      "Advanced AI analytics",
-      "Up to 1,000 transactions/day",
-      "Enhanced security features",
+      "Advanced container tracking",
+      "Up to 1,000 shipments/month",
+      "Enhanced route optimization",
       "Priority support",
       "5 users",
       "Custom integrations",
@@ -49,22 +49,22 @@ const pricingPlans = [
   },
   {
     name: "Enterprise",
-    description: "For large organizations with complex needs",
+    description: "For large-scale logistics operations",
     price: {
       monthly: 249,
       yearly: 199,
     },
     features: [
-      "Full AI analytics suite",
-      "Unlimited transactions",
-      "Military-grade security",
+      "Real-time container tracking",
+      "Unlimited shipments",
+      "AI-powered route optimization",
       "24/7 dedicated support",
       "Unlimited users",
       "Custom integrations",
       "Dedicated account manager",
     ],
     notIncluded: [],
-    cta: "Buy Now",
+    cta: "Contact Us",
     popular: false,
   },
 ];
@@ -88,13 +88,15 @@ const PricingSection = () => {
             <span className="text-gradient">Pricing Plans</span>
           </h2>
           <p className="text-lg text-foreground/80 mb-8">
-            Choose the perfect plan for your needs. All plans include our core
-            AI and blockchain features.
+            Choose the perfect plan for your logistics needs. All plans include
+            core features like container tracking and route optimization.
           </p>
 
           <div className="flex items-center justify-center mb-8">
             <span
-              className={`mr-3 ${!annual ? "text-foreground" : "text-foreground/60"}`}
+              className={`mr-3 ${
+                !annual ? "text-foreground" : "text-foreground/60"
+              }`}
             >
               Monthly
             </span>
@@ -109,7 +111,9 @@ const PricingSection = () => {
               />
             </button>
             <span
-              className={`ml-3 ${annual ? "text-foreground" : "text-foreground/60"}`}
+              className={`ml-3 ${
+                annual ? "text-foreground" : "text-foreground/60"
+              }`}
             >
               Annual <span className="text-primary text-sm">(Save 20%)</span>
             </span>
