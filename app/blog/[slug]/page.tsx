@@ -1,19 +1,17 @@
-import { notFound } from "next/navigation";
-import Link from "next/link";
-import Image from "next/image";
 import {
   ArrowLeft,
   Calendar,
-  User,
   Clock,
-  Tag,
-  Facebook,
-  Twitter,
-  Linkedin,
   Share2,
+  Tag,
+  User,
+  Twitter,
 } from "lucide-react";
-import Navbar from "../../components/navbar";
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
 import Footer from "../../components/footer";
+import Navbar from "../../components/navbar";
 import { blogPosts } from "../../data/blog-posts";
 
 export default async function BlogPostPage({
@@ -121,13 +119,7 @@ export default async function BlogPostPage({
                     </p>
                     <div className="flex gap-2">
                       <button className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-colors">
-                        <Facebook className="w-4 h-4" />
-                      </button>
-                      <button className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-colors">
                         <Twitter className="w-4 h-4" />
-                      </button>
-                      <button className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-colors">
-                        <Linkedin className="w-4 h-4" />
                       </button>
                       <button className="p-2 rounded-full bg-muted hover:bg-primary/20 transition-colors">
                         <Share2 className="w-4 h-4" />

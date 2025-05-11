@@ -21,33 +21,53 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "Explore how artificial intelligence is revolutionizing logistics and supply chain management, creating new opportunities for efficiency and innovation.",
     content: `
-      <p>Artificial Intelligence (AI) is transforming the logistics and supply chain industry, enabling smarter, faster, and more efficient operations. From route optimization to predictive maintenance, AI is reshaping how goods are transported and managed globally.</p>
-      
-      <h2>The Role of AI in Logistics</h2>
-      
-      <p>AI technologies are being applied across various aspects of logistics, including real-time route optimization, demand forecasting, and warehouse automation. By analyzing vast datasets, AI can identify patterns and make predictions that improve decision-making and operational efficiency.</p>
-      
-      <p>For example, AI-powered route optimization tools can analyze traffic, weather, and delivery constraints to determine the most efficient routes, reducing fuel consumption and delivery times. Similarly, predictive maintenance systems use AI to monitor vehicle health and prevent costly breakdowns.</p>
-      
-      <h2>Enhancing Supply Chain Visibility</h2>
-      
-      <p>Supply chain visibility is critical for ensuring timely deliveries and minimizing disruptions. AI-powered analytics platforms provide real-time insights into every stage of the supply chain, from inventory levels to shipment tracking. This enables businesses to proactively address potential issues and improve customer satisfaction.</p>
-      
-      <p>For instance, AI can predict demand fluctuations and optimize inventory levels, ensuring that the right products are available at the right time. This reduces holding costs and minimizes the risk of stockouts.</p>
-      
-      <h2>Automation in Warehousing</h2>
-      
-      <p>AI-driven automation is revolutionizing warehouse operations. Robots equipped with AI can efficiently manage inventory, pick and pack orders, and sort shipments. This not only increases speed and accuracy but also reduces labor costs and human error.</p>
-      
-      <p>Additionally, AI-powered systems can analyze historical data to optimize warehouse layouts, improving space utilization and streamlining workflows.</p>
-      
-      <h2>The Road Ahead</h2>
-      
-      <p>The integration of AI in logistics is still evolving, but its potential is immense. As these technologies continue to advance, we can expect to see more innovative applications that enhance efficiency, reduce costs, and improve sustainability.</p>
-      
-      <p>At HyperscanAI, we are leveraging AI to revolutionize logistics and supply chain management. Our platform combines advanced analytics with real-time data to provide actionable insights, helping businesses optimize their operations and stay ahead in a competitive market.</p>
-      
-      <p>The future of logistics is AI-powered, and we are excited to lead the way. Join us as we explore the endless possibilities of this transformative technology.</p>
+      <p>
+        The logistics industry is the backbone of global commerce, and its evolution is being driven by advanced technologies that deliver unprecedented visibility, efficiency, and safety. At HyperscanAI, we are building the next generation of logistics intelligence with a focus on five core features: Container Tracking, Cargo Weight Estimation, Chemical Screening, Route Optimization, and Delivery Time Estimation.
+      </p>
+
+      <h2>Container Tracking</h2>
+      <p>
+        Real-time container tracking is essential for operational transparency and customer trust. Our platform leverages IoT, AI-powered image recognition, and blockchain-backed audit trails to provide end-to-end visibility of every container. Users can monitor location, status, and custody changes, reducing the risk of loss, theft, or misrouting.
+      </p>
+
+      <h2>Cargo Weight Estimation</h2>
+      <p>
+        Accurate cargo weight estimation is critical for compliance, safety, and cost optimization. HyperscanAI integrates with smart sensors and applies advanced analytics to validate and predict cargo weights, flagging anomalies and preventing costly overloading or underutilization. All sensor data is cryptographically verified to ensure integrity.
+      </p>
+
+      <h2>Chemical Screening</h2>
+      <p>
+        Safety and regulatory compliance demand rigorous chemical screening. Our system automatically scans cargo manifests and sensor data for hazardous materials using pattern recognition and AI models. Suspicious or regulated items are flagged for review, helping prevent incidents and ensuring adherence to international standards.
+      </p>
+
+      <h2>Route Optimization</h2>
+      <p>
+        Efficient route planning reduces costs, emissions, and delays. HyperscanAI's route optimization engine analyzes real-time traffic, weather, and operational constraints to recommend the best delivery paths. Our secure APIs ensure that only authorized users and systems can access and influence routing decisions, protecting against manipulation and abuse.
+      </p>
+
+      <h2>Delivery Time Estimation</h2>
+      <p>
+        Reliable delivery time estimation is a competitive advantage in logistics. Our platform combines historical data, live tracking, and predictive analytics to provide accurate ETAs. Every prediction is logged for auditability, supporting SLA compliance and dispute resolution.
+      </p>
+
+      <h2>Why HyperscanAI?</h2>
+      <p>
+        By integrating these features into a unified platform, HyperscanAI empowers logistics businesses to operate with greater confidence, safety, and efficiency. Our solutions are designed for real-world complexity—handling edge cases, ensuring data integrity, and supporting compliance at every step. Whether you manage a global fleet or a regional supply chain, our technology helps you stay ahead in a rapidly changing industry.
+      </p>
+
+      <h2>Get Started</h2>
+      <p>
+        Discover how HyperscanAI can transform your logistics operations. Explore our <a href="https://doc.hyperscanai.cloud/api-sdk" target="_blank" rel="noopener noreferrer">API & SDK documentation</a> or contact our team for a tailored demo.
+      </p>
+
+      <h3>Quick Example</h3>
+      <pre><code class="language-typescript">
+// Query container status
+const container = await client.trackContainer({
+  containerId: "MSCU1234567"
+});
+console.log(container.currentLocation, container.status);
+      </code></pre>
     `,
     image: "/blog/1-1.png",
     date: "Apr 15, 2025",
@@ -74,37 +94,26 @@ export const blogPosts: BlogPost[] = [
       <h2>Key Applications of Image Recognition in Maritime Logistics</h2>
 
       <p><strong>1. Automated Container Identification and Tracking</strong></p>
-
       <p>Manually identifying and tracking containers is time-consuming and prone to errors. AI-powered image recognition automates this process by analyzing container numbers and barcodes in real-time, ensuring accurate tracking throughout the supply chain.</p>
-
       <p><em>Real-Life Example:</em> The Port of Singapore, one of the busiest ports in the world, uses AI-powered cameras to automatically identify and track containers as they move through the terminal. This has reduced processing times and improved overall port efficiency.</p>
 
       <p><strong>2. Damage Detection and Quality Assurance</strong></p>
-
       <p>Inspecting containers and cargo for damage is a critical task in maritime logistics. Image recognition systems can analyze images of containers to detect dents, cracks, or other anomalies, ensuring that damaged goods are identified before shipment.</p>
-
       <p><em>Real-Life Example:</em> Maersk has implemented AI-powered damage detection systems that use image recognition to inspect containers for structural issues. This has significantly reduced the time required for inspections and improved the accuracy of damage assessments.</p>
 
       <p><strong>3. Enhancing Port Operations</strong></p>
-
       <p>Ports are complex environments with numerous moving parts. Image recognition technology is used to monitor port activities, optimize crane operations, and ensure the safe loading and unloading of cargo.</p>
-
       <p><em>Real-Life Example:</em> The Port of Rotterdam employs AI-powered image recognition to monitor crane operations and optimize container stacking. This has increased throughput and reduced delays, making the port one of the most efficient in Europe.</p>
 
       <p><strong>4. Improving Maritime Safety</strong></p>
-
       <p>Safety is a top priority in maritime logistics. Image recognition systems can analyze video feeds to detect safety hazards, such as unauthorized personnel in restricted areas or equipment malfunctions, and alert operators in real-time.</p>
-
       <p><em>Real-Life Example:</em> The Port of Los Angeles uses AI-powered surveillance systems to monitor for safety violations and potential security threats. This has enhanced the port's ability to respond quickly to incidents and maintain a safe working environment.</p>
 
       <p><strong>5. Optimizing Cargo Loading and Unloading</strong></p>
-
       <p>Efficient cargo handling is essential for minimizing turnaround times at ports. Image recognition systems can analyze container layouts and optimize loading and unloading sequences, reducing delays and maximizing space utilization.</p>
-
       <p><em>Real-Life Example:</em> DP World, a global leader in port operations, uses AI-powered image recognition to optimize cargo handling at its terminals. This has resulted in faster turnaround times and improved operational efficiency.</p>
 
       <h2>Benefits of Image Recognition in Maritime Logistics</h2>
-
       <ul>
         <li><strong>Increased Efficiency:</strong> Automating visual inspections and cargo management reduces processing times and minimizes delays.</li>
         <li><strong>Enhanced Accuracy:</strong> AI-powered systems eliminate human errors in container identification and damage detection.</li>
@@ -113,8 +122,81 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Environmental Benefits:</strong> Optimized cargo handling and reduced idle times contribute to lower emissions and more sustainable operations.</li>
       </ul>
 
-      <h2>Challenges and the Path Forward</h2>
+      <h2>Integrating HyperscanAI API & SDK</h2>
+      <p>HyperscanAI provides a robust API and SDK to help you integrate AI-powered image recognition and cargo analytics into your maritime logistics workflows. Below are practical examples and references to help you get started.</p>
 
+      <h3>API Examples</h3>
+      <h4>JavaScript</h4>
+      <pre><code class="language-javascript">
+client.estimateCargoWeight({
+  cargoId: "cargo-id-123",
+  dimensions: { length: 2.5, width: 1.2, height: 1.0 },
+  materialType: "steel",
+  sensorData: { weightReading: 1200, density: 7.85 }
+}).then(result =&gt; {
+  console.log(\`Estimated Weight: \${result.estimatedWeight} kg\`);
+  console.log(\`Confidence Score: \${result.confidenceScore}%\`);
+  if (result.warnings) {
+    console.warn(\`Warnings: \${result.warnings.join(", ")}\`);
+  }
+});
+      </code></pre>
+
+      <h4>Python</h4>
+      <pre><code class="language-python">
+result = client.estimate_cargo_weight(
+  cargo_id="cargo-id-123",
+  dimensions={"length": 2.5, "width": 1.2, "height": 1.0},
+  material_type="steel",
+  sensor_data={"weightReading": 1200, "density": 7.85}
+)
+print(f"Estimated Weight: {result['estimatedWeight']} kg")
+print(f"Confidence Score: {result['confidenceScore']}%")
+if "warnings" in result:
+    print(f"Warnings: {', '.join(result['warnings'])}")
+      </code></pre>
+
+      <h3>Example Input (JSON)</h3>
+      <pre><code class="language-json">
+{
+  "cargoId": "cargo-id-123",
+  "dimensions": {
+    "length": 2.5,
+    "width": 1.2,
+    "height": 1.0
+  },
+  "materialType": "steel",
+  "sensorData": {
+    "weightReading": 1200,
+    "density": 7.85
+  },
+  "historicalData": [
+    { "cargoId": "cargo-id-122", "weight": 1180 },
+    { "cargoId": "cargo-id-121", "weight": 1195 }
+  ]
+}
+      </code></pre>
+
+      <h3>Output</h3>
+      <p>The API returns an estimated weight along with additional metadata:</p>
+      <ul>
+        <li><strong>Estimated Weight:</strong> The predicted weight of the cargo.</li>
+        <li><strong>Confidence Score:</strong> A percentage indicating the confidence level of the estimation.</li>
+        <li><strong>Warnings</strong> (optional): Any issues or anomalies detected during the estimation process.</li>
+      </ul>
+
+      <h3>Example Output (JSON)</h3>
+      <pre><code class="language-json">
+{
+  "estimatedWeight": 1205,
+  "confidenceScore": 98.5,
+  "warnings": []
+}
+      </code></pre>
+
+        <strong>API Reference:</strong> <a href="https://doc.hyperscanai.cloud/api-sdk/overview" target="_blank" rel="noopener noreferrer">https://doc.hyperscanai.cloud/api-reference</a>
+
+      <h2>Challenges and the Path Forward</h2>
       <p>While the benefits of AI-powered image recognition are clear, challenges such as high implementation costs, data privacy concerns, and the need for skilled personnel must be addressed. Collaboration between technology providers, shipping companies, and regulatory bodies will be key to overcoming these hurdles.</p>
 
       <p>At HyperscanAI, we are dedicated to advancing AI-powered solutions for maritime logistics. Our cutting-edge image recognition technology helps shipping companies optimize operations, enhance safety, and stay competitive in a rapidly evolving industry.</p>
@@ -124,7 +206,7 @@ export const blogPosts: BlogPost[] = [
     image: "/blog/5-1.jpg",
     date: "Apr 20, 2025",
     author: "Martfish",
-    authorImage: "/blog/1-2.png",
+    authorImage: "/placeholder.svg?height=100&width=100",
     category: "Maritime Logistics",
     readTime: "20 min read",
     tags: [
@@ -191,6 +273,77 @@ export const blogPosts: BlogPost[] = [
       
       <p>Decentralized platforms enable real-time tracking and optimization of freight operations, reducing delays and improving resource utilization.</p>
       
+      <h2>Blockchain Smart Contract Example: Supply Chain Tracking</h2>
+      <p>Below is a detailed example of a Solidity smart contract for tracking shipments in a decentralized logistics network. This contract records each shipment's status, location, and ownership changes on the blockchain, ensuring transparency and traceability for all stakeholders.</p>
+      <pre><code class="language-solidity">
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SupplyChainTracking {
+    enum Status { Created, InTransit, Delivered, Delayed }
+
+    struct Shipment {
+        string description;
+        address owner;
+        Status status;
+        string currentLocation;
+        uint256 lastUpdate;
+        string[] history;
+    }
+
+    mapping(bytes32 => Shipment) public shipments;
+
+    event ShipmentCreated(bytes32 indexed shipmentId, address indexed owner, string description);
+    event StatusUpdated(bytes32 indexed shipmentId, Status status, string location, uint256 timestamp);
+
+    modifier onlyOwner(bytes32 shipmentId) {
+        require(msg.sender == shipments[shipmentId].owner, "Not shipment owner");
+        _;
+    }
+
+    function createShipment(bytes32 shipmentId, string memory description, string memory initialLocation) public {
+        require(shipments[shipmentId].owner == address(0), "Shipment already exists");
+        shipments[shipmentId] = Shipment({
+            description: description,
+            owner: msg.sender,
+            status: Status.Created,
+            currentLocation: initialLocation,
+            lastUpdate: block.timestamp,
+            history: new string[](0)
+        });
+        shipments[shipmentId].history.push(initialLocation);
+        emit ShipmentCreated(shipmentId, msg.sender, description);
+    }
+
+    function updateStatus(bytes32 shipmentId, Status newStatus, string memory newLocation) public onlyOwner(shipmentId) {
+        Shipment storage s = shipments[shipmentId];
+        s.status = newStatus;
+        s.currentLocation = newLocation;
+        s.lastUpdate = block.timestamp;
+        s.history.push(newLocation);
+        emit StatusUpdated(shipmentId, newStatus, newLocation, block.timestamp);
+    }
+
+    function transferOwnership(bytes32 shipmentId, address newOwner) public onlyOwner(shipmentId) {
+        shipments[shipmentId].owner = newOwner;
+    }
+
+    function getShipmentHistory(bytes32 shipmentId) public view returns (string[] memory) {
+        return shipments[shipmentId].history;
+    }
+}
+      </code></pre>
+      <p>
+        This contract allows for:
+        <ul>
+          <li>Creating a new shipment with an initial location and description.</li>
+          <li>Updating the shipment's status and location as it moves through the supply chain.</li>
+          <li>Transferring ownership (e.g., from supplier to carrier to receiver).</li>
+          <li>Retrieving the full location history for audit and compliance.</li>
+        </ul>
+        For more advanced integrations, you can connect this contract with IoT devices and off-chain data using oracles.
+      </p>
+
       <h2>The Future of Decentralized Logistics</h2>
       
       <p>As decentralized logistics continues to evolve, we can expect to see greater adoption and integration with traditional supply chain systems. The future will likely include:</p>
@@ -208,7 +361,7 @@ export const blogPosts: BlogPost[] = [
     `,
     image: "/blog/3-1.webp",
     date: "Apr 5, 2025",
-    author: "sailingges",
+    author: "0x4d69636861656c20",
     authorImage: "/placeholder.svg?height=100&width=100",
     category: "Logistic",
     readTime: "12 min read",
@@ -285,8 +438,8 @@ export const blogPosts: BlogPost[] = [
     `,
     image: "/blog/4-1.png",
     date: "Mar 28, 2025",
-    author: "David Lee",
-    authorImage: "/blog/4-2.png",
+    author: "Alex Johnson",
+    authorImage: "/blog/1-2.png",
     category: "Logistic",
     readTime: "18 min read",
     tags: [
@@ -305,79 +458,95 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "A comprehensive guide to the security protocols that are essential for building secure and resilient logistics systems.",
     content: `
-      <p>Security is a paramount concern in the logistics industry. As supply chains handle valuable goods and sensitive data, ensuring robust security measures is not just a best practice—it's a necessity.</p>
-      
-      <h2>The Importance of Logistics Security</h2>
-      
-      <p>Logistics operations involve multiple stakeholders, from suppliers to distributors, and rely on the seamless exchange of data and goods. While this interconnectedness enhances efficiency, it also introduces vulnerabilities that can be exploited by malicious actors.</p>
-      
-      <p>Unlike traditional operations, where security breaches might lead to delays, in logistics, vulnerabilities can result in the loss of valuable goods, data breaches, or disruptions to the entire supply chain. This makes security a critical aspect of logistics management.</p>
-      
-      <h2>Key Security Protocols in Logistics</h2>
-      
-      <p><strong>1. Data Encryption</strong></p>
-      
-      <p>Data encryption ensures that sensitive information, such as shipment details and customer data, is protected during transmission and storage. Key encryption techniques include:</p>
-      
+      <p>
+        In modern logistics, two of the most critical and challenging security issues are ensuring the integrity of cargo weight estimation and the reliability of chemical screening. Both are essential for operational safety, regulatory compliance, and customer trust. Below, we explore these problems in depth, provide real-world scenarios, and demonstrate how to test and solve them with robust technical solutions.
+      </p>
+
+      <h2>Cargo Weight Estimation: Ensuring Sensor Data Integrity</h2>
+      <p>
+        Accurate cargo weight estimation is fundamental for logistics operations, affecting everything from load balancing to customs compliance. However, weight sensors deployed in the field are vulnerable to data tampering, spoofing, or malfunction—either accidentally or through malicious intent. For example, a compromised sensor could report a lower weight to evade overweight penalties, or a faulty device might send corrupted data, leading to unsafe loading.
+      </p>
+      <p>
+        <strong>Example Case:</strong> In a busy cargo yard, a sensor attached to a container transmits weight data to the central system. An attacker attempts to forge the payload to report a lower weight, hoping to bypass regulatory checks.
+      </p>
+      <p>
+        <strong>How to Test:</strong> Simulate sensor data transmission with both valid and tampered payloads. Attempt to submit a payload with an incorrect signature and verify that the system rejects it.
+      </p>
+      <pre><code class="language-python">
+import hmac, hashlib
+
+def verify_sensor_data(data, signature, secret):
+    mac = hmac.new(secret.encode(), data.encode(), hashlib.sha256).hexdigest()
+    return hmac.compare_digest(mac, signature)
+
+# Valid payload
+payload = '{"weight":1200,"timestamp":1680000000}'
+secret = "sensor-shared-secret"
+signature = hmac.new(secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
+assert verify_sensor_data(payload, signature, secret)  # Passes
+
+# Tampered payload
+tampered_payload = '{"weight":800,"timestamp":1680000000}'
+assert not verify_sensor_data(tampered_payload, signature, secret)  # Fails
+      </code></pre>
+      <p>
+        <strong>How to Solve:</strong> Enforce HMAC signatures on all sensor data. Each sensor shares a secret with the backend; every payload is signed and verified before acceptance. This ensures that only authentic, untampered data is processed.
+      </p>
+      <p>
+        <strong>Impact:</strong> By implementing cryptographic verification, you prevent fraudulent or erroneous weight data from entering your system. This protects against regulatory fines, prevents unsafe loading, and maintains trust with partners and authorities.
+      </p>
+
+      <h2>Chemical Screening: Detecting Hidden Hazards in Cargo Manifests</h2>
+      <p>
+        Chemical screening is vital for safety and compliance, especially when handling hazardous materials. The challenge lies in detecting undeclared or misrepresented dangerous goods in cargo manifests, which may be intentionally disguised or simply omitted due to oversight. A single missed hazardous item can lead to catastrophic incidents, environmental harm, or legal consequences.
+      </p>
+      <p>
+        <strong>Example Case:</strong> A manifest for an inbound container lists "batteries" as cargo. However, the actual contents are lithium-ion batteries (UN3480), which are classified as hazardous and require special handling and documentation.
+      </p>
+      <p>
+        <strong>How to Test:</strong> Run automated scans on manifests using pattern matching to flag suspicious or regulated chemical codes and keywords. Test with both compliant and non-compliant manifests to ensure detection accuracy.
+      </p>
+      <pre><code class="language-python">
+import re
+
+def is_hazardous(manifest):
+    # Detect suspicious chemical codes or names
+    return bool(re.search(r'(UN3480|explosive|radioactive|corrosive)', manifest, re.IGNORECASE))
+
+# Compliant manifest
+manifest1 = "Container: UN3480, Lithium Ion Batteries"
+assert is_hazardous(manifest1)  # True
+
+# Non-hazardous manifest
+manifest2 = "Container: Toys, Clothing"
+assert not is_hazardous(manifest2)  # False
+      </code></pre>
+      <p>
+        <strong>How to Solve:</strong> Integrate regex-based or ML-powered screening into your manifest processing pipeline. Flag and escalate any cargo that matches hazardous patterns for manual review or additional checks.
+      </p>
+      <p>
+        <strong>Impact:</strong> Automated chemical screening dramatically reduces the risk of undetected hazardous goods entering your supply chain. This not only protects lives and property but also ensures compliance with international regulations and avoids costly penalties or shipment delays.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Addressing these advanced security challenges with technical rigor is essential for any logistics platform that values safety, compliance, and operational excellence. By proactively testing and implementing robust solutions for sensor data integrity and chemical screening, you can mitigate risks, build trust, and maintain a resilient logistics operation.
+      </p>
+
+      <h2>References</h2>
       <ul>
-        <li>End-to-end encryption for secure communication</li>
-        <li>Hashing algorithms for data integrity</li>
-        <li>Digital signatures for authentication</li>
+        <li><a href="https://doc.hyperscanai.cloud/api-sdk" target="_blank" rel="noopener noreferrer">HyperscanAI API Reference</a></li>
+        <li><a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">OWASP Top 10 Security Risks</a></li>
       </ul>
-      
-      <p><strong>2. Access Control</strong></p>
-      
-      <p>Access control mechanisms ensure that only authorized personnel can access critical systems and data. Best practices include:</p>
-      
-      <ul>
-        <li>Role-based access control (RBAC) to limit access based on job roles</li>
-        <li>Multi-factor authentication (MFA) for added security</li>
-        <li>Regular audits to identify and address unauthorized access</li>
-      </ul>
-      
-      <p><strong>3. Secure IoT Devices</strong></p>
-      
-      <p>IoT devices, such as GPS trackers and sensors, play a crucial role in modern logistics. Securing these devices involves:</p>
-      
-      <ul>
-        <li>Regular firmware updates to patch vulnerabilities</li>
-        <li>Encryption of data transmitted by IoT devices</li>
-        <li>Network segmentation to isolate IoT devices from critical systems</li>
-      </ul>
-      
-      <h2>Implementing Security in Logistics Operations</h2>
-      
-      <p>Building a secure logistics system requires a comprehensive approach that addresses security at every level of the supply chain. Here are some key considerations:</p>
-      
-      <p><strong>1. Security by Design</strong></p>
-      
-      <p>Security should be a primary consideration from the earliest stages of system design. This includes threat modeling, risk assessment, and the implementation of security controls as part of the core architecture.</p>
-      
-      <p><strong>2. Regular Security Audits</strong></p>
-      
-      <p>Regular security audits by independent experts can help identify vulnerabilities before they can be exploited. This is particularly important for systems that handle sensitive data or critical operations.</p>
-      
-      <p><strong>3. Employee Training</strong></p>
-      
-      <p>Employees play a crucial role in maintaining the security of logistics operations. Training programs should focus on best practices, such as recognizing phishing attempts and securely handling sensitive data.</p>
-      
-      <h2>The Future of Logistics Security</h2>
-      
-      <p>As logistics operations become increasingly digital and interconnected, the importance of robust security measures will only grow. Staying informed about the latest security developments and continuously updating your security protocols is essential for maintaining a resilient supply chain.</p>
-      
-      <p>At HyperscanAI, we prioritize security in all aspects of our platform. Our team of experts works tirelessly to ensure that our clients' operations and data are protected against the latest threats.</p>
-      
-      <p>By understanding and implementing these security protocols, you can build logistics systems that not only provide innovative functionality but also ensure the security and trust that stakeholders expect in the modern supply chain.</p>
     `,
     image: "/blog/2-1.png",
     date: "Apr 10, 2025",
-    author: "Sarah Chen",
-    authorImage: "/blog/2-2.png",
+    author: "0x4d69636861656c20",
+    authorImage: "/placeholder.svg?height=100&width=100",
     category: "Security",
     readTime: "10 min read",
     tags: ["Security", "Logistics", "Protocols", "Supply Chain"],
   },
-
   {
     id: 6,
     slug: "blockchain-in-shipping-lines",
@@ -444,8 +613,8 @@ export const blogPosts: BlogPost[] = [
     `,
     image: "/blog/6-1.jpg",
     date: "Apr 25, 2025",
-    author: "0x4d69636861656c20",
-    authorImage: "/placeholder.svg?height=100&width=100",
+    author: "Alex Johnson",
+    authorImage: "/blog/1-2.png",
     category: "Blockchain",
     readTime: "20 min read",
     tags: [
