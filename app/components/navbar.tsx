@@ -4,6 +4,7 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -22,6 +23,12 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const pathname = usePathname();
+  const makeUrl = (path: string) => {
+    if (pathname.includes("/blog")) return `/${path}`;
+    return path;
+  };
 
   return (
     <nav
@@ -47,13 +54,13 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
               <Link
-                href="#home"
+                href={makeUrl("#home")}
                 className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 About
               </Link>
               <Link
-                href="#features"
+                href={makeUrl("#features")}
                 className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 Features
@@ -71,13 +78,13 @@ const Navbar = () => {
               {/*   About */}
               {/* </Link> */}
               <Link
-                href="#pricing"
+                href={makeUrl("#pricing")}
                 className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 Pricing
               </Link>
               <Link
-                href="#blog"
+                href={pathname.includes("/blog") ? "/blog" : "#blog"}
                 className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 Blog

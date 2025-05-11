@@ -49,9 +49,9 @@ const HeroSection = () => {
                     height={24}
                   />
                   <div className="flex flex-col items-start">
-                    <span className="text-xs font-normal">Download on the</span>
+                    <span className="text-xs font-normal">Download for</span>
                     <span className="text-md font-medium leading-none mt-1">
-                      App Store
+                      iOS
                     </span>
                   </div>
                 </Button>
@@ -71,9 +71,9 @@ const HeroSection = () => {
                     height={24}
                   />
                   <div className="flex flex-col items-start">
-                    <span className="text-xs font-normal">Get it on</span>
+                    <span className="text-xs font-normal">Download for</span>
                     <span className="text-md font-medium leading-none mt-1">
-                      Google Play
+                      Android
                     </span>
                   </div>
                 </Button>
