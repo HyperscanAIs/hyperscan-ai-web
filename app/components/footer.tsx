@@ -26,7 +26,7 @@ const Footer = () => {
                 <X className="w-5 h-5" />
               </Link>
               <Link
-                href="https://github.com/ethanscott12297/"
+                href="https://github.com/hyperscanais"
                 className="text-foreground/70 hover:text-primary transition-colors"
               >
                 <Github className="w-5 h-5" />
